@@ -21,8 +21,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 )
 
 type (

@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 // TestAuth_CVE_2021_28235 verifies https://nvd.nist.gov/vuln/detail/CVE-2021-28235

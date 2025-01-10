@@ -21,15 +21,15 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/robustness/client"
-	"go.etcd.io/etcd/tests/v3/robustness/failpoint"
-	"go.etcd.io/etcd/tests/v3/robustness/options"
-	"go.etcd.io/etcd/tests/v3/robustness/random"
-	"go.etcd.io/etcd/tests/v3/robustness/traffic"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/client"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/failpoint"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/options"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/random"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/traffic"
 )
 
 type TrafficProfile struct {

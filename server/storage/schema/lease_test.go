@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/server/v3/lease/leasepb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease/leasepb"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 )
 
 func TestLeaseBackend(t *testing.T) {

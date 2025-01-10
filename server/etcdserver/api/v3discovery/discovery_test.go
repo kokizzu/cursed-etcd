@@ -23,10 +23,10 @@ import (
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 // fakeKVForClusterSize is used to test getClusterSize.

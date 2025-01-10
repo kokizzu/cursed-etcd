@@ -28,12 +28,12 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/etcdutl/v3/snapshot"
-	"go.etcd.io/etcd/server/v3/embed"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/etcdutl/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 // TestSnapshotV3RestoreSingle tests single node cluster restoring

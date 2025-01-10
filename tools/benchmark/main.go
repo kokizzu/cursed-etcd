@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/v3/tools/benchmark/cmd"
+	"github.com/kokizzu/cursed-etcd/v3/tools/benchmark/cmd"
 )
 
 func main() {

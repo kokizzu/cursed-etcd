@@ -20,8 +20,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"go.etcd.io/etcd/tools/rw-heatmaps/v3/pkg/chart"
-	"go.etcd.io/etcd/tools/rw-heatmaps/v3/pkg/dataset"
+	"github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3/pkg/chart"
+	"github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3/pkg/dataset"
 )
 
 var (

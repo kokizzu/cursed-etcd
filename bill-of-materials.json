@@ -459,7 +459,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/api/v3",
+		"project": "github.com/kokizzu/cursed-etcd/api/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -468,7 +468,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/client/pkg/v3",
+		"project": "github.com/kokizzu/cursed-etcd/client/pkg/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -477,7 +477,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/client/v2",
+		"project": "github.com/kokizzu/cursed-etcd/client/v2",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -486,7 +486,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/client/v3",
+		"project": "github.com/kokizzu/cursed-etcd/client/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -495,7 +495,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/etcdctl/v3",
+		"project": "github.com/kokizzu/cursed-etcd/etcdctl/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -504,7 +504,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/etcdutl/v3",
+		"project": "github.com/kokizzu/cursed-etcd/etcdutl/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -513,7 +513,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/pkg/v3",
+		"project": "github.com/kokizzu/cursed-etcd/pkg/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -522,7 +522,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/server/v3",
+		"project": "github.com/kokizzu/cursed-etcd/server/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -531,7 +531,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/tests/v3",
+		"project": "github.com/kokizzu/cursed-etcd/tests/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",
@@ -540,7 +540,7 @@
 		]
 	},
 	{
-		"project": "go.etcd.io/etcd/v3",
+		"project": "github.com/kokizzu/cursed-etcd/v3",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

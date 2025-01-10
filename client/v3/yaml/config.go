@@ -22,8 +22,8 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"go.etcd.io/etcd/client/pkg/v3/tlsutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/tlsutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 type yamlConfig struct {

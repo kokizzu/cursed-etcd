@@ -20,11 +20,11 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	txn "go.etcd.io/etcd/server/v3/etcdserver/txn"
-	"go.etcd.io/etcd/server/v3/lease"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	txn "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/txn"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
 )
 
 func FuzzTxnRangeRequest(f *testing.F) {

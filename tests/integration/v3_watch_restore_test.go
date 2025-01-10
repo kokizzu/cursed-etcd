@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // MustFetchNotEmptyMetric attempts to fetch given 'metric' from 'member',

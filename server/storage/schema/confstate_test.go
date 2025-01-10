@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

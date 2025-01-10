@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	etcd "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	etcd "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/endpoints"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestEndpointManager(t *testing.T) {

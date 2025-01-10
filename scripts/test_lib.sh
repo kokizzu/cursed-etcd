@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-ROOT_MODULE="go.etcd.io/etcd"
+ROOT_MODULE="github.com/kokizzu/cursed-etcd"
 
 if [[ "$(go list)" != "${ROOT_MODULE}/v3" ]]; then
   echo "must be run from '${ROOT_MODULE}/v3' module directory"
@@ -389,7 +389,7 @@ function tool_get_bin {
     run_for_module ./tools/mod run go install ${GOBINARGS:-} "${tool}" || return 2
   fi
 
-  # remove the version suffix, such as removing "/v3" from "go.etcd.io/etcd/v3".
+  # remove the version suffix, such as removing "/v3" from "github.com/kokizzu/cursed-etcd/v3".
   local cmd_base_name
   cmd_base_name=$(basename "${pkg_part}")
   if [[ ${cmd_base_name} =~ ^v[0-9]*$ ]]; then

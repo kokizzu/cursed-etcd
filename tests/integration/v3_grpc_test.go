@@ -32,12 +32,12 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestV3PutOverwrite puts a key with the v3 api to a random Cluster member,

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestNetworkPartition5MembersLeaderInMinority(t *testing.T) {

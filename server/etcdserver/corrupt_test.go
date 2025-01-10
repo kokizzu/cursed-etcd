@@ -31,12 +31,12 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/lease"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
 )
 
 func TestInitialCheck(t *testing.T) {

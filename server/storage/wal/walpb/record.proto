@@ -4,7 +4,7 @@ package walpb;
 import "gogoproto/gogo.proto";
 import "raftpb/raft.proto";
 
-option go_package = "go.etcd.io/etcd/server/v3/storage/wal/walpb";
+option go_package = "github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb";
 
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.sizer_all) = true;

@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	epb "go.etcd.io/etcd/server/v3/etcdserver/api/v3election/v3electionpb"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	epb "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3election/v3electionpb"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestV3ElectionCampaign checks that Campaign will not give

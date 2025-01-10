@@ -19,7 +19,7 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	v3 "go.etcd.io/etcd/client/v3"
+	v3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 type tablePrinter struct{ printer }

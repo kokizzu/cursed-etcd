@@ -25,13 +25,13 @@ import (
 	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
 	"go.uber.org/zap"
 
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/featuregate"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/netutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3discovery"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/datadir"
 	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/pkg/v3/featuregate"
-	"go.etcd.io/etcd/pkg/v3/netutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3discovery"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
 )
 
 const (

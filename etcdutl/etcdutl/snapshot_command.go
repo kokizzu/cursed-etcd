@@ -20,10 +20,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"go.etcd.io/etcd/etcdutl/v3/snapshot"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
+	"github.com/kokizzu/cursed-etcd/etcdutl/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/datadir"
 )
 
 const (

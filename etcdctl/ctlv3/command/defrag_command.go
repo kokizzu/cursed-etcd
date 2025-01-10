@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
 )
 
 // NewDefragCommand returns the cobra command for "Defrag".

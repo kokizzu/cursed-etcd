@@ -26,12 +26,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/flags"
-	cconfig "go.etcd.io/etcd/server/v3/config"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/flags"
+	cconfig "github.com/kokizzu/cursed-etcd/server/v3/config"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/rafthttp"
 )
 
 var (

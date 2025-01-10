@@ -25,7 +25,7 @@ import (
 
 	"github.com/anishathalye/porcupine"
 
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
 )
 
 // DeterministicModel assumes a deterministic execution of etcd requests. All

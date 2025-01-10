@@ -20,8 +20,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/auth"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
 )
 
 const (

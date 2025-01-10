@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 type txnReq struct {

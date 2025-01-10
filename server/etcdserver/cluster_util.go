@@ -28,11 +28,11 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2store"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
 )
 
 // isMemberBootstrapped tries to check if the given member has been bootstrapped

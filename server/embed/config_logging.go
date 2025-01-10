@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc/grpclog"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
 )
 
 // GetLogger returns the logger.

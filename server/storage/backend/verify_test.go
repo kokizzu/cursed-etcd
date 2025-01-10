@@ -18,9 +18,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 )
 
 func TestLockVerify(t *testing.T) {

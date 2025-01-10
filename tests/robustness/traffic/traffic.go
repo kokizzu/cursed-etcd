@@ -24,12 +24,12 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/robustness/client"
-	"go.etcd.io/etcd/tests/v3/robustness/identity"
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/random"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/client"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/identity"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/random"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
 )
 
 var (

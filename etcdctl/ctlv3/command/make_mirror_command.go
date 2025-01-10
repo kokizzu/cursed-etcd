@@ -25,11 +25,11 @@ import (
 	"github.com/bgentry/speakeasy"
 	"github.com/spf13/cobra"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/mirror"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/mirror"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
 )
 
 const (

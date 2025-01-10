@@ -23,10 +23,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/schema"
 )
 
 func TestBatchTxPut(t *testing.T) {

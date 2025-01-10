@@ -22,7 +22,7 @@ import (
 	"go.uber.org/zap/zapgrpc"
 	"google.golang.org/grpc/grpclog"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
 )
 
 func init() {

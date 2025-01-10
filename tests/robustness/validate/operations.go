@@ -23,8 +23,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
 )
 
 var (

@@ -21,12 +21,12 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/tests/v3/robustness/client"
-	"go.etcd.io/etcd/tests/v3/robustness/identity"
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/random"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/client"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/identity"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/random"
 )
 
 var (

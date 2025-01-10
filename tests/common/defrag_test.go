@@ -19,8 +19,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 func TestDefragOnline(t *testing.T) {

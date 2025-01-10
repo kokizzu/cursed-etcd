@@ -19,7 +19,7 @@ import (
 	"google.golang.org/grpc/resolver/manual"
 	"google.golang.org/grpc/serviceconfig"
 
-	"go.etcd.io/etcd/client/v3/internal/endpoint"
+	"github.com/kokizzu/cursed-etcd/client/v3/internal/endpoint"
 )
 
 const (

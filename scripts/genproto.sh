@@ -130,12 +130,12 @@ for pb in api/etcdserverpb/rpc server/etcdserver/api/v3lock/v3lockpb/v3lock serv
   gwfile="${pb}.pb.gw.go"
 
   run ${SED?} -i -E "s#package $pkg#package gw#g" "${gwfile}"
-  run ${SED?} -i -E "s#import \\(#import \\(\"go.etcd.io/etcd/${pkgpath}\"#g" "${gwfile}"
+  run ${SED?} -i -E "s#import \\(#import \\(\"github.com/kokizzu/cursed-etcd/${pkgpath}\"#g" "${gwfile}"
   run ${SED?} -i -E "s#([ (])([a-zA-Z0-9_]*(Client|Server|Request)([^(]|$))#\\1${pkg}.\\2#g" "${gwfile}"
   run ${SED?} -i -E "s# (New[a-zA-Z0-9_]*Client\\()# ${pkg}.\\1#g" "${gwfile}"
-  run ${SED?} -i -E "s|go.etcd.io/etcd|go.etcd.io/etcd/v3|g" "${gwfile}"
-  run ${SED?} -i -E "s|go.etcd.io/etcd/v3/api|go.etcd.io/etcd/api/v3|g" "${gwfile}"
-  run ${SED?} -i -E "s|go.etcd.io/etcd/v3/server|go.etcd.io/etcd/server/v3|g" "${gwfile}"
+  run ${SED?} -i -E "s|github.com/kokizzu/cursed-etcd|github.com/kokizzu/cursed-etcd/v3|g" "${gwfile}"
+  run ${SED?} -i -E "s|github.com/kokizzu/cursed-etcd/v3/api|github.com/kokizzu/cursed-etcd/api/v3|g" "${gwfile}"
+  run ${SED?} -i -E "s|github.com/kokizzu/cursed-etcd/v3/server|github.com/kokizzu/cursed-etcd/server/v3|g" "${gwfile}"
 
   run go fmt "${gwfile}"
 

@@ -20,9 +20,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func TestCurlV3Watch(t *testing.T) {

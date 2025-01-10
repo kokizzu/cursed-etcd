@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
 )
 
 func TestEvent(t *testing.T) {

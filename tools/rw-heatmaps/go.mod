@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/tools/rw-heatmaps/v3
+module github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3
 
 go 1.23
 

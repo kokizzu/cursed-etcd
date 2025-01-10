@@ -23,13 +23,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	waltesting "go.etcd.io/etcd/server/v3/storage/wal/testing"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/membershippb"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal"
+	waltesting "github.com/kokizzu/cursed-etcd/server/v3/storage/wal/testing"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

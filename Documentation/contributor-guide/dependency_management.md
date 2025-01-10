@@ -37,20 +37,20 @@ if module A depends on module B, then bump the dependency for module B before mo
 it doesn't matter to bump which module first. For example, multiple modules depend on `github.com/spf13/cobra`, so we need to bump the dependency
 in the following order,
 
-- go.etcd.io/etcd/pkg/v3
-- go.etcd.io/etcd/server/v3
-- go.etcd.io/etcd/etcdctl/v3
-- go.etcd.io/etcd/etcdutl/v3
-- go.etcd.io/etcd/tests/v3
-- go.etcd.io/etcd/v3
-- go.etcd.io/etcd/tools/v3
+- github.com/kokizzu/cursed-etcd/pkg/v3
+- github.com/kokizzu/cursed-etcd/server/v3
+- github.com/kokizzu/cursed-etcd/etcdctl/v3
+- github.com/kokizzu/cursed-etcd/etcdutl/v3
+- github.com/kokizzu/cursed-etcd/tests/v3
+- github.com/kokizzu/cursed-etcd/v3
+- github.com/kokizzu/cursed-etcd/tools/v3
 For more details about etcd Golang modules, please check <https://etcd.io/docs/next/dev-internal/modules>
 
-Note the module `go.etcd.io/etcd/tools/v3` doesn't depend on any other modules, nor by any other modules, so it doesn't matter when to bump dependencies for it.
+Note the module `github.com/kokizzu/cursed-etcd/tools/v3` doesn't depend on any other modules, nor by any other modules, so it doesn't matter when to bump dependencies for it.
 
 ### Steps to bump a dependency
 
-Use the `github.com/spf13/cobra` as an example, follow the steps below to bump it from 1.6.1 to 1.7.0 for module `go.etcd.io/etcd/etcdctl/v3`,
+Use the `github.com/spf13/cobra` as an example, follow the steps below to bump it from 1.6.1 to 1.7.0 for module `github.com/kokizzu/cursed-etcd/etcdctl/v3`,
 
 ```bash
 cd ${ETCD_ROOT_DIR}/etcdctl
@@ -70,7 +70,7 @@ git commit --signoff -m "dependency: bump github.com/spf13/cobra from 1.6.1 to 1
 Please close the related PRs which were automatically opened by dependabot. 
 
 When you bump multiple dependencies in one PR, it's recommended to create a separate commit for each dependency. But it isn't a must; for example,
-you can get all dependencies bumping for the module `go.etcd.io/etcd/tools/v3` included in one commit.
+you can get all dependencies bumping for the module `github.com/kokizzu/cursed-etcd/tools/v3` included in one commit.
 
 #### Troubleshooting 
 

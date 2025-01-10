@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/robustness/identity"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/identity"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
 )
 
 func CollectClusterWatchEvents(ctx context.Context, t *testing.T, clus *e2e.EtcdProcessCluster, maxRevisionChan <-chan int64, cfg WatchConfig, baseTime time.Time, ids identity.Provider) []report.ClientReport {

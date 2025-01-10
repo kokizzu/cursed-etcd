@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/client/v3
+module github.com/kokizzu/cursed-etcd/client/v3
 
 go 1.23
 
@@ -10,8 +10,8 @@ require (
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/prometheus/client_golang v1.20.5
 	github.com/stretchr/testify v1.10.0
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/api/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 v3.6.0-alpha.0
 	go.uber.org/zap v1.27.0
 	google.golang.org/grpc v1.69.2
 	sigs.k8s.io/yaml v1.4.0
@@ -44,15 +44,15 @@ require (
 )
 
 replace (
-	go.etcd.io/etcd/api/v3 => ../../api
-	go.etcd.io/etcd/client/pkg/v3 => ../pkg
+	github.com/kokizzu/cursed-etcd/api/v3 => ../../api
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 => ../pkg
 )
 
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
 replace (
-	go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/pkg/v3 => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/pkg/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/v3 => ./FORBIDDEN_DEPENDENCY
 	go.etcd.io/tests/v3 => ./FORBIDDEN_DEPENDENCY
 )

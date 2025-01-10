@@ -31,7 +31,7 @@ import (
 	"gonum.org/v1/plot/vg/draw"
 	"gonum.org/v1/plot/vg/vgimg"
 
-	"go.etcd.io/etcd/tools/rw-heatmaps/v3/pkg/dataset"
+	"github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3/pkg/dataset"
 )
 
 // pow2Ticks is a type that implements the plot.Ticker interface for log2 scale.

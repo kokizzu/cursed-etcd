@@ -18,8 +18,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func mockRand(source rand.Source) func() {

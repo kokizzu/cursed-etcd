@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	cconfig "go.etcd.io/etcd/server/v3/config"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/server/v3/features"
+	cconfig "github.com/kokizzu/cursed-etcd/server/v3/config"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/kokizzu/cursed-etcd/server/v3/features"
 )
 
 var (

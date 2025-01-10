@@ -22,9 +22,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 	"go.etcd.io/bbolt"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
 )
 
 // TestVersion ensures that UnsafeSetStorageVersion/UnsafeReadStorageVersion work well together.

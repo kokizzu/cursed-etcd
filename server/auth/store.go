@@ -31,9 +31,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
 )
 
 var (

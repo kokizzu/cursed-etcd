@@ -30,10 +30,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 const (

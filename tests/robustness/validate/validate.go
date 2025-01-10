@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
 )
 
 // ValidateAndReturnVisualize returns visualize as porcupine.linearizationInfo used to generate visualization is private.

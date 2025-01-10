@@ -23,9 +23,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/storage/schema"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestPauseMember(t *testing.T) {

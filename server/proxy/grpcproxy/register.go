@@ -21,9 +21,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/concurrency"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/endpoints"
 )
 
 // allow maximum 1 retry per second

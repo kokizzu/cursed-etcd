@@ -28,13 +28,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3rpc"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 	gofail "go.etcd.io/gofail/runtime"
 )
 

@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestTxnError(t *testing.T) {

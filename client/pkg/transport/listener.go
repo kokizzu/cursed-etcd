@@ -34,9 +34,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/tlsutil"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/tlsutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
 )
 
 // NewListener creates a new listner.

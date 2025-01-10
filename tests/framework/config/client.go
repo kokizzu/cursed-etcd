@@ -17,7 +17,7 @@ package config
 import (
 	"time"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 // ClientOption configures the client with additional parameter.

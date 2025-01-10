@@ -23,13 +23,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
-	framecfg "go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb"
+	framecfg "github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestEtcdVersionFromWAL(t *testing.T) {

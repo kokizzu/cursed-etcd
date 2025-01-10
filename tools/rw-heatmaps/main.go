@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/tools/rw-heatmaps/v3/cmd"
+	"github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3/cmd"
 )
 
 func main() {

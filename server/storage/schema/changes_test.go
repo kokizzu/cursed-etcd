@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 )
 
 func TestUpgradeDowngrade(t *testing.T) {

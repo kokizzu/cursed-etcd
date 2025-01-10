@@ -27,8 +27,8 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
 	bolt "go.etcd.io/bbolt"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
 )
 
 var (

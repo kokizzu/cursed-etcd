@@ -25,7 +25,7 @@ import (
 
 	"google.golang.org/grpc/status"
 
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestRevisionMonotonicWithLeaderPartitions(t *testing.T) {

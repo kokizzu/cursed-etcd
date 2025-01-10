@@ -24,13 +24,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/etcdserver/api"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/server/v3/lease/leasehttp"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease/leasehttp"
 )
 
 const (

@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/client/pkg/v3
+module github.com/kokizzu/cursed-etcd/client/pkg/v3
 
 go 1.23
 

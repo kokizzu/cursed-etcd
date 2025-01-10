@@ -25,8 +25,8 @@ import (
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 // hasChecksum returns "true" if the file size "n"

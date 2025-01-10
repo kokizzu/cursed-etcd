@@ -21,7 +21,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
 )
 
 func TestModelDeterministic(t *testing.T) {

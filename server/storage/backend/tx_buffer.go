@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
 )
 
 const bucketBufferInitialSize = 512

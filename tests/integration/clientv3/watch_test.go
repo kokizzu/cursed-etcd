@@ -28,12 +28,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/metadata"
 
-	mvccpb "go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/api/v3/version"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3rpc"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	mvccpb "github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3rpc"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 type watcherTest func(*testing.T, *watchctx)

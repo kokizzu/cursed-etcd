@@ -29,12 +29,12 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/pkg/v3/netutil"
-	"go.etcd.io/etcd/pkg/v3/notify"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
-	serverversion "go.etcd.io/etcd/server/v3/etcdserver/version"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/netutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/notify"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2store"
+	serverversion "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version"
 	"go.etcd.io/raft/v3"
 	"go.etcd.io/raft/v3/raftpb"
 )

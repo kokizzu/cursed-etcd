@@ -24,13 +24,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	"go.etcd.io/etcd/pkg/v3/schedule"
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/lease"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/schedule"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/traceutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 var (

@@ -24,7 +24,7 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

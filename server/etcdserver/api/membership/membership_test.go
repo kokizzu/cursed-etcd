@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	serverversion "go.etcd.io/etcd/server/v3/etcdserver/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	serverversion "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version"
 )
 
 func TestAddRemoveMember(t *testing.T) {

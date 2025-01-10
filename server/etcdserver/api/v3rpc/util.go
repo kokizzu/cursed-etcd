@@ -22,14 +22,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/server/v3/etcdserver/version"
-	"go.etcd.io/etcd/server/v3/lease"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/server/v3/auth"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
 )
 
 var toGRPCErrorMap = map[error]error{

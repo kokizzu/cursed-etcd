@@ -31,7 +31,7 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
 )
 
 var (

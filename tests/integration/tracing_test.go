@@ -28,10 +28,10 @@ import (
 	traceservice "go.opentelemetry.io/proto/otlp/collector/trace/v1"
 	"google.golang.org/grpc"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestTracing ensures that distributed tracing is setup when the feature flag is enabled.

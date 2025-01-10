@@ -21,10 +21,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/auth"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 )
 
 func TestGetAllRoles(t *testing.T) {

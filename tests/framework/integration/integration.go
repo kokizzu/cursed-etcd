@@ -23,12 +23,12 @@ import (
 	"go.uber.org/zap"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	etcdctlcmd "go.etcd.io/etcd/etcdctl/v3/ctlv3/command"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	intf "go.etcd.io/etcd/tests/v3/framework/interfaces"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	etcdctlcmd "github.com/kokizzu/cursed-etcd/etcdctl/v3/ctlv3/command"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	intf "github.com/kokizzu/cursed-etcd/tests/v3/framework/interfaces"
 )
 
 type integrationRunner struct{}

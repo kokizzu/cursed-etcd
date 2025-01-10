@@ -23,9 +23,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/stringutil"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/stringutil"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 // TestReproduce17780 reproduces the issue: https://github.com/etcd-io/etcd/issues/17780.

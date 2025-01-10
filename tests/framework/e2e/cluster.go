@@ -31,13 +31,13 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/featuregate"
-	"go.etcd.io/etcd/pkg/v3/proxy"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/featuregate"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/proxy"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
 )
 
 const EtcdProcessBasePort = 20000

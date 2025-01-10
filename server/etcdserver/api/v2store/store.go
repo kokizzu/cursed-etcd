@@ -25,8 +25,8 @@ import (
 
 	"github.com/jonboulle/clockwork"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2error"
 )
 
 // The default version to set when the store is first initialized.

@@ -24,9 +24,9 @@ import (
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/v3/credentials"
-	"go.etcd.io/etcd/server/v3/etcdserver"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/client/v3/credentials"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
 )
 
 const (

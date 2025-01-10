@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
 )
 
 const (

@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	v3 "go.etcd.io/etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	v3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 func waitDelete(ctx context.Context, client *v3.Client, key string, rev int64) error {

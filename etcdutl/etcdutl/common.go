@@ -18,8 +18,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
 )
 
 func GetLogger() *zap.Logger {

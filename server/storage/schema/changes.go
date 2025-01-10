@@ -14,7 +14,7 @@
 
 package schema
 
-import "go.etcd.io/etcd/server/v3/storage/backend"
+import "github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
 
 type schemaChange interface {
 	upgradeAction() action

@@ -27,11 +27,11 @@ import (
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
-	"go.etcd.io/etcd/server/v3/proxy/grpcproxy"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/endpoints"
+	"github.com/kokizzu/cursed-etcd/server/v3/proxy/grpcproxy"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestClusterProxyMemberList(t *testing.T) {

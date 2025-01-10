@@ -29,11 +29,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/storage/mvcc/testutil"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc/testutil"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 const (

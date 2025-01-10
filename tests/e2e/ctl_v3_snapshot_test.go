@@ -30,12 +30,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	v3rpc "go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/etcdutl/v3/snapshot"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	v3rpc "github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/etcdutl/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 func TestCtlV3Snapshot(t *testing.T) { testCtl(t, snapshotTest) }

@@ -20,7 +20,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 )
 
 var errAlreadySentHeader = errors.New("adapter: already sent header")

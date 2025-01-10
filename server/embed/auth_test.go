@@ -18,7 +18,7 @@ import (
 	"context"
 	"testing"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3client"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3client"
 )
 
 func TestEnableAuth(t *testing.T) {

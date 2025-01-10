@@ -112,7 +112,7 @@ Follow the comments in [Procfile script](./Procfile) to add a learner node to th
 ### Install etcd client v3
 
 ```bash
-go get go.etcd.io/etcd/client/v3
+go get github.com/kokizzu/cursed-etcd/client/v3
 ```
 
 ### Next steps

@@ -21,8 +21,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/runtime"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/runtime"
 )
 
 var (

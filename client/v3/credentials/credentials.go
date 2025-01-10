@@ -23,7 +23,7 @@ import (
 
 	grpccredentials "google.golang.org/grpc/credentials"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
 )
 
 func NewTransportCredential(cfg *tls.Config) grpccredentials.TransportCredentials {

@@ -26,12 +26,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 	"go.etcd.io/bbolt"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
-	"go.etcd.io/etcd/server/v3/storage/schema"
 )
 
 // TestSnapshotStatus is the happy case.

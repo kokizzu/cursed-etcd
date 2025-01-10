@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/tools/testgrid-analysis/v3
+module github.com/kokizzu/cursed-etcd/tools/testgrid-analysis/v3
 
 go 1.23
 

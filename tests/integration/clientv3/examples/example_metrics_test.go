@@ -24,8 +24,8 @@ import (
 	"strings"
 
 	grpcprom "github.com/grpc-ecosystem/go-grpc-prometheus"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 )
 

@@ -23,16 +23,16 @@ import (
 	"go.uber.org/zap/zaptest"
 	"golang.org/x/crypto/bcrypt"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3alarm"
-	"go.etcd.io/etcd/server/v3/etcdserver/cindex"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
-	"go.etcd.io/etcd/server/v3/lease"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/auth"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3alarm"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/cindex"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 const memberID = 111195

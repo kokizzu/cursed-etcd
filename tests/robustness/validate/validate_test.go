@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
 )
 
 func TestDataReports(t *testing.T) {

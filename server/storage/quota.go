@@ -20,8 +20,8 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
 )
 
 const (

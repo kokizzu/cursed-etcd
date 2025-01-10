@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/v3/tools/proto-annotations/cmd"
+	"github.com/kokizzu/cursed-etcd/v3/tools/proto-annotations/cmd"
 )
 
 func main() {

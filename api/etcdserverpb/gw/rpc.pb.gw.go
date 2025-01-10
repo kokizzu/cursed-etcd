@@ -13,7 +13,7 @@ import (
 
 	"context"
 	"errors"
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 	"io"
 	"net/http"
 

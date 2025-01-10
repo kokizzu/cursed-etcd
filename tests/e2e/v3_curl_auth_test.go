@@ -23,11 +23,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func TestCurlV3Auth(t *testing.T) {

@@ -17,7 +17,7 @@ package e2e
 import (
 	"strings"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 type kvExec struct {

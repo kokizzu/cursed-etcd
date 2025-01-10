@@ -25,16 +25,16 @@ import (
 	"go.uber.org/zap/zaptest"
 	"golang.org/x/sync/errgroup"
 
-	"go.etcd.io/etcd/tests/v3/framework"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/robustness/client"
-	"go.etcd.io/etcd/tests/v3/robustness/failpoint"
-	"go.etcd.io/etcd/tests/v3/robustness/identity"
-	"go.etcd.io/etcd/tests/v3/robustness/model"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
-	"go.etcd.io/etcd/tests/v3/robustness/scenarios"
-	"go.etcd.io/etcd/tests/v3/robustness/traffic"
-	"go.etcd.io/etcd/tests/v3/robustness/validate"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/client"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/failpoint"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/identity"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/scenarios"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/traffic"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/validate"
 )
 
 var testRunner = framework.E2eTestRunner

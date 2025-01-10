@@ -19,15 +19,15 @@ import (
 
 	"github.com/coreos/go-semver/semver"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/api/v3/version"
-	serverversion "go.etcd.io/etcd/server/v3/etcdserver/version"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/membershippb"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	serverversion "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 // serverVersionAdapter implements the interface Server defined in package
-// go.etcd.io/etcd/server/v3/etcdserver/version, and it's needed by Monitor
+// github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version, and it's needed by Monitor
 // in the same package.
 type serverVersionAdapter struct {
 	*EtcdServer

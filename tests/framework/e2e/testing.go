@@ -17,7 +17,7 @@ package e2e
 import (
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
 )
 
 func BeforeTest(t testing.TB) {

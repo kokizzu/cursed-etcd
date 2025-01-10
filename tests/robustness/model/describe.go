@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 func describeEtcdResponse(request EtcdRequest, response MaybeEtcdResponse) string {

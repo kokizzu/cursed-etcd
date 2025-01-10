@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
 )
 
 type CURLReq struct {

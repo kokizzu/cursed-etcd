@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.etcd.io/etcd/etcdutl/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/etcdutl/v3/snapshot"
 )
 
 type simplePrinter struct{}

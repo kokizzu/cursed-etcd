@@ -22,7 +22,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"go.etcd.io/etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
 )
 
 type Config struct {

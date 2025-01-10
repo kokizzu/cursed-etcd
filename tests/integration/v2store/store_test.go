@@ -22,8 +22,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2error"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2store"
 )
 
 type StoreCloser interface {

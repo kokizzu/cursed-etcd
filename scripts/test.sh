@@ -304,13 +304,13 @@ function cov_pass {
   # strip out generated files (using GNU-style sed)
   sed --in-place -E "/[.]pb[.](gw[.])?go/d" "${cover_out_file}" || true
 
-  sed --in-place -E "s|go.etcd.io/etcd/api/v3/|api/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/client/v3/|client/v3/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/client/pkg/v3|client/pkg/v3/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/etcdctl/v3/|etcdctl/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/etcdutl/v3/|etcdutl/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/pkg/v3/|pkg/|g" "${cover_out_file}" || true
-  sed --in-place -E "s|go.etcd.io/etcd/server/v3/|server/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/api/v3/|api/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/client/v3/|client/v3/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/client/pkg/v3|client/pkg/v3/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/etcdctl/v3/|etcdctl/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/etcdutl/v3/|etcdutl/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/pkg/v3/|pkg/|g" "${cover_out_file}" || true
+  sed --in-place -E "s|github.com/kokizzu/cursed-etcd/server/v3/|server/|g" "${cover_out_file}" || true
 
   # held failures to generate the full coverage file, now fail
   if [ -n "$failed" ]; then
@@ -381,9 +381,9 @@ function govet_shadow_per_package {
   #
   # stderr: etcdserverpb/gw/rpc.pb.gw.go:2100:3: declaration of "ctx" shadows declaration at line 2005
   local skip_pkgs=(
-    "go.etcd.io/etcd/api/v3/etcdserverpb/gw"
-    "go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb/gw"
-    "go.etcd.io/etcd/server/v3/etcdserver/api/v3election/v3electionpb/gw"
+    "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb/gw"
+    "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3lock/v3lockpb/gw"
+    "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3election/v3electionpb/gw"
   )
 
   local pkgs=()

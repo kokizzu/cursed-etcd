@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 const (

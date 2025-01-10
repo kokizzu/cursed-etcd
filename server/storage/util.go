@@ -21,11 +21,11 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/server/v3/config"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2store"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/pbutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/config"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2store"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

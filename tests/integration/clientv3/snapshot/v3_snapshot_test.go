@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/snapshot"
-	"go.etcd.io/etcd/server/v3/embed"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestSaveSnapshotFilePermissions ensures that the snapshot is saved with

@@ -27,10 +27,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"go.etcd.io/etcd/pkg/v3/featuregate"
-	"go.etcd.io/etcd/pkg/v3/flags"
-	"go.etcd.io/etcd/server/v3/embed"
-	"go.etcd.io/etcd/server/v3/features"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/featuregate"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/flags"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/server/v3/features"
 )
 
 func TestConfigParsingMemberFlags(t *testing.T) {

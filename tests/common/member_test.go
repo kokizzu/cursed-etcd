@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	intf "go.etcd.io/etcd/tests/v3/framework/interfaces"
-	"go.etcd.io/etcd/tests/v3/framework/testutils"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	intf "github.com/kokizzu/cursed-etcd/tests/v3/framework/interfaces"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/testutils"
 )
 
 func TestMemberList(t *testing.T) {

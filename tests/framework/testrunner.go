@@ -15,10 +15,10 @@
 package framework
 
 import (
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
-	intf "go.etcd.io/etcd/tests/v3/framework/interfaces"
-	"go.etcd.io/etcd/tests/v3/framework/unit"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
+	intf "github.com/kokizzu/cursed-etcd/tests/v3/framework/interfaces"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/unit"
 )
 
 var (

@@ -24,10 +24,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/membershippb"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/pbutil"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

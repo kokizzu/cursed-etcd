@@ -19,7 +19,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/pkg/v3/featuregate"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/featuregate"
 )
 
 const (

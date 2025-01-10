@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
 )
 
 func TestGet(t *testing.T) {

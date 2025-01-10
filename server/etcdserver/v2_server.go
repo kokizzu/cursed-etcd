@@ -15,7 +15,7 @@
 package etcdserver
 
 import (
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 )
 
 type RequestV2 pb.Request

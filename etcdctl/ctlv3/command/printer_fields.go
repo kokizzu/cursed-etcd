@@ -17,10 +17,10 @@ package command
 import (
 	"fmt"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	spb "go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	v3 "go.etcd.io/etcd/client/v3"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	spb "github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	v3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 type fieldsPrinter struct {

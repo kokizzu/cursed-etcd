@@ -30,10 +30,10 @@ import (
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
 )
 
 func NewClient(t *testing.T, cfg Config) (*Client, error) {

@@ -23,10 +23,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
-	recipe "go.etcd.io/etcd/client/v3/experimental/recipes"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/concurrency"
+	recipe "github.com/kokizzu/cursed-etcd/client/v3/experimental/recipes"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestDoubleBarrier(t *testing.T) {

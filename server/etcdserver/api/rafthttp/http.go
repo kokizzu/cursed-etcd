@@ -27,10 +27,10 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	pioutil "go.etcd.io/etcd/pkg/v3/ioutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	pioutil "github.com/kokizzu/cursed-etcd/pkg/v3/ioutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/snap"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

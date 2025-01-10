@@ -26,14 +26,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/v2"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/v2"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/rafthttp"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestClusterOf1UsingDiscovery(t *testing.T)    { testClusterUsingDiscovery(t, 1, false) }

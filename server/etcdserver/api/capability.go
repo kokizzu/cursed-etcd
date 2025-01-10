@@ -20,8 +20,8 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/version"
-	serverversion "go.etcd.io/etcd/server/v3/etcdserver/version"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	serverversion "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/version"
 )
 
 type Capability string

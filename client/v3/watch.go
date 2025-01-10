@@ -27,9 +27,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	v3rpc "go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	v3rpc "github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	"go.etcd.io/etcd/pkg/v3/adt"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/adt"
 )
 
 func TestRangePermission(t *testing.T) {

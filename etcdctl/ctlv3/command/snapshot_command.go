@@ -21,10 +21,10 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	snapshot "go.etcd.io/etcd/client/v3/snapshot"
-	"go.etcd.io/etcd/etcdctl/v3/util"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	snapshot "github.com/kokizzu/cursed-etcd/client/v3/snapshot"
+	"github.com/kokizzu/cursed-etcd/etcdctl/v3/util"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
 )
 
 var snapshotExample = util.Normalize(`

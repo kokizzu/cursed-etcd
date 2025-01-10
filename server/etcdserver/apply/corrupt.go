@@ -15,9 +15,9 @@
 package apply
 
 import (
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/traceutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
 )
 
 type applierV3Corrupt struct {

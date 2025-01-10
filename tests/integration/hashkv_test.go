@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/etcdserver"
-	"go.etcd.io/etcd/server/v3/storage/mvcc/testutil"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc/testutil"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestCompactionHash tests the compaction hash

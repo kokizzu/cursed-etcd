@@ -19,7 +19,7 @@ import (
 	"errors"
 	"io"
 
-	"go.etcd.io/etcd/pkg/v3/pbutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/pbutil"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

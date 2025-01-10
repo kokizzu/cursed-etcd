@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb"
 )
 
 var (

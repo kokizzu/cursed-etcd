@@ -22,11 +22,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/pbutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

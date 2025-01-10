@@ -20,9 +20,9 @@ import (
 
 	"go.uber.org/zap"
 
-	httptypes "go.etcd.io/etcd/server/v3/etcdserver/api/etcdhttp/types"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
-	"go.etcd.io/etcd/server/v3/etcdserver/errors"
+	httptypes "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/etcdhttp/types"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2error"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/errors"
 )
 
 func allowMethod(w http.ResponseWriter, r *http.Request, m string) bool {

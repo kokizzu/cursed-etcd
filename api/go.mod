@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/api/v3
+module github.com/kokizzu/cursed-etcd/api/v3
 
 go 1.23
 
@@ -31,9 +31,9 @@ require (
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
 replace (
-	go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/api/v3 => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/pkg/v3 => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/tests/v3 => ./FORBIDDEN_DEPENDENCY
-	go.etcd.io/etcd/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/api/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/pkg/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/tests/v3 => ./FORBIDDEN_DEPENDENCY
+	github.com/kokizzu/cursed-etcd/v3 => ./FORBIDDEN_DEPENDENCY
 )

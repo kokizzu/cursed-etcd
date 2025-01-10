@@ -24,12 +24,12 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
-	"go.etcd.io/etcd/pkg/v3/flags"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/flags"
 )
 
 var (

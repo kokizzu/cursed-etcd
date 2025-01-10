@@ -22,7 +22,7 @@ import (
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 )
 
 const (

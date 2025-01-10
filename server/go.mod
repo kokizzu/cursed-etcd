@@ -1,4 +1,4 @@
-module go.etcd.io/etcd/server/v3
+module github.com/kokizzu/cursed-etcd/server/v3
 
 go 1.23
 
@@ -26,11 +26,11 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20201229170055-e5319fda7802
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2
 	go.etcd.io/bbolt v1.4.0-beta.0
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/api/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/v2 v2.306.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/pkg/v3 v3.6.0-alpha.0
 	go.etcd.io/raft/v3 v3.6.0-beta.0
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.58.0
 	go.opentelemetry.io/otel v1.33.0
@@ -79,15 +79,15 @@ require (
 )
 
 replace (
-	go.etcd.io/etcd/api/v3 => ../api
-	go.etcd.io/etcd/client/pkg/v3 => ../client/pkg
-	go.etcd.io/etcd/client/v2 => ./../client/internal/v2
-	go.etcd.io/etcd/client/v3 => ../client/v3
-	go.etcd.io/etcd/pkg/v3 => ../pkg
+	github.com/kokizzu/cursed-etcd/api/v3 => ../api
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 => ../client/pkg
+	github.com/kokizzu/cursed-etcd/client/v2 => ./../client/internal/v2
+	github.com/kokizzu/cursed-etcd/client/v3 => ../client/v3
+	github.com/kokizzu/cursed-etcd/pkg/v3 => ../pkg
 )
 
 // Bad imports are sometimes causing attempts to pull that code.
 // This makes the error more explicit.
-replace go.etcd.io/etcd => ./FORBIDDEN_DEPENDENCY
+replace github.com/kokizzu/cursed-etcd => ./FORBIDDEN_DEPENDENCY
 
 replace go.etcd.io/tests/v3 => ./FORBIDDEN_DEPENDENCY

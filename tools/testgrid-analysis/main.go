@@ -14,7 +14,7 @@
 
 package main
 
-import "go.etcd.io/etcd/tools/testgrid-analysis/v3/cmd"
+import "github.com/kokizzu/cursed-etcd/tools/testgrid-analysis/v3/cmd"
 
 func main() {
 	cmd.Execute()

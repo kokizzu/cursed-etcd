@@ -15,8 +15,8 @@
 package mvcc
 
 import (
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 func UnsafeReadFinishedCompact(tx backend.UnsafeReader) (int64, bool) {

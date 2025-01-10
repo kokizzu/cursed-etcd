@@ -24,8 +24,8 @@ import (
 
 	"go.uber.org/zap"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
 )
 
 func newEmbedURLs(n int) (urls []url.URL) {

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/snap"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

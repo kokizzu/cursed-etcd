@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
 )
 
 var (

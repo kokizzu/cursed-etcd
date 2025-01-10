@@ -17,7 +17,7 @@ package options
 import (
 	"time"
 
-	e2e "go.etcd.io/etcd/tests/v3/framework/e2e"
+	e2e "github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func WithSnapshotCount(input ...uint64) e2e.EPClusterOption {

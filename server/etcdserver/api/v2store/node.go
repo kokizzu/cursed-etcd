@@ -21,7 +21,7 @@ import (
 
 	"github.com/jonboulle/clockwork"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v2error"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2error"
 )
 
 // explanations of Compare function result

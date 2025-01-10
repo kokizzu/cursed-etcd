@@ -27,7 +27,7 @@ import (
 
 	kjson "sigs.k8s.io/json"
 
-	"go.etcd.io/etcd/client/pkg/v3/pathutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/pathutil"
 )
 
 const (

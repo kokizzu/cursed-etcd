@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
 )
 
 func TestMembersAPIActionList(t *testing.T) {

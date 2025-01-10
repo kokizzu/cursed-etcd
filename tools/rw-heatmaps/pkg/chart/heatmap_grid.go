@@ -17,7 +17,7 @@ package chart
 import (
 	"sort"
 
-	"go.etcd.io/etcd/tools/rw-heatmaps/v3/pkg/dataset"
+	"github.com/kokizzu/cursed-etcd/tools/rw-heatmaps/v3/pkg/dataset"
 )
 
 // heatMapGrid holds X, Y, Z values for a heatmap.

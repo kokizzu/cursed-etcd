@@ -21,9 +21,9 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/api/snap"
-	"go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/snap"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

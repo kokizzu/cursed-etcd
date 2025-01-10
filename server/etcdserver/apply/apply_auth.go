@@ -17,11 +17,11 @@ package apply
 import (
 	"sync"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/auth"
-	"go.etcd.io/etcd/server/v3/etcdserver/txn"
-	"go.etcd.io/etcd/server/v3/lease"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/traceutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/auth"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/txn"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
 )
 
 type authApplierV3 struct {

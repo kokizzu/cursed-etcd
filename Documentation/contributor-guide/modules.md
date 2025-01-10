@@ -7,31 +7,31 @@ The etcd project (since version 3.5) is organized into multiple
 
 There are the following modules:
 
-  - **go.etcd.io/etcd/api/v3** - contains API definitions
+  - **github.com/kokizzu/cursed-etcd/api/v3** - contains API definitions
   (like protos & proto-generated libraries) that defines communication protocol
   between etcd clients and servers.
 
-  - **go.etcd.io/etcd/pkg/v3** - a collection of utility packages used by etcd
+  - **github.com/kokizzu/cursed-etcd/pkg/v3** - a collection of utility packages used by etcd
   without being specific to etcd itself. A package belongs here
   only if it could possibly be moved out into its own repository in the future.
   Please avoid adding here code that has a lot of dependencies on its own, as
   they automatically become dependencies of the client library
   (that we want to keep lightweight).
 
-  - **go.etcd.io/etcd/client/v3** - client library used to contact etcd over
+  - **github.com/kokizzu/cursed-etcd/client/v3** - client library used to contact etcd over
   the network (grpc). Recommended for all new usage of etcd.
 
   - **go.etcd.io/raft/v3** - implementation of distributed consensus
   protocol. Should have no etcd specific code. Hosted in a separate repository:
   https://github.com/etcd-io/raft.
 
-  - **go.etcd.io/etcd/server/v3** - etcd implementation.
+  - **github.com/kokizzu/cursed-etcd/server/v3** - etcd implementation.
   The code in this package is internal to etcd and should not be consumed
   by external projects. The package layout and API can change within the minor versions.
 
-  - **go.etcd.io/etcd/etcdctl/v3** - a command line tool to access and manage etcd.
+  - **github.com/kokizzu/cursed-etcd/etcdctl/v3** - a command line tool to access and manage etcd.
 
-  - **go.etcd.io/etcd/tests/v3** - a module that contains all integration tests of etcd.
+  - **github.com/kokizzu/cursed-etcd/tests/v3** - a module that contains all integration tests of etcd.
     Notice: All unit tests (fast and not requiring cross-module dependencies)
     should be kept in the local modules of the code under the test.
 
@@ -42,7 +42,7 @@ There are the following modules:
 ### Operations
 
 1. All etcd modules should be released in the same versions, e.g.
-   `go.etcd.io/etcd/client/v3@v3.5.10` must depend on `go.etcd.io/etcd/api/v3@v3.5.10`.
+   `github.com/kokizzu/cursed-etcd/client/v3@v3.5.10` must depend on `github.com/kokizzu/cursed-etcd/api/v3@v3.5.10`.
 
    The consistent updating of versions can be performed using:
    ```shell script

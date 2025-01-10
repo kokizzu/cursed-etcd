@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
 )
 
 type (

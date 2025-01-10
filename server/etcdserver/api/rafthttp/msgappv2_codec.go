@@ -20,9 +20,9 @@ import (
 	"io"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/pkg/v3/pbutil"
-	stats "go.etcd.io/etcd/server/v3/etcdserver/api/v2stats"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/pbutil"
+	stats "github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v2stats"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

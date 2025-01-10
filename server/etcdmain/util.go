@@ -20,8 +20,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/srv"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/srv"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
 )
 
 func discoverEndpoints(lg *zap.Logger, dns string, ca string, insecure bool, serviceName string) (s srv.SRVClients) {

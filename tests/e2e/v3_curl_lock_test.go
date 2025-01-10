@@ -21,9 +21,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func TestCurlV3LockOperations(t *testing.T) {

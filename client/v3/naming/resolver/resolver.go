@@ -23,8 +23,8 @@ import (
 	gresolver "google.golang.org/grpc/resolver"
 	"google.golang.org/grpc/status"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/endpoints"
 )
 
 type builder struct {

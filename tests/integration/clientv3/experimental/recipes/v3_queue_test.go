@@ -20,8 +20,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	recipe "go.etcd.io/etcd/client/v3/experimental/recipes"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	recipe "github.com/kokizzu/cursed-etcd/client/v3/experimental/recipes"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 const (

@@ -19,8 +19,8 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
 )
 
 // WithRequireLeader requires client requests to only succeed

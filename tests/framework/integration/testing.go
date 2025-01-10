@@ -24,10 +24,10 @@ import (
 	"go.uber.org/zap/zapgrpc"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/client/pkg/v3/testutil"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/server/v3/embed"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/testutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/server/v3/embed"
 	gofail "go.etcd.io/gofail/runtime"
 )
 

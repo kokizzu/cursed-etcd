@@ -17,8 +17,8 @@ package etcdserver
 import (
 	"testing"
 
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap/zaptest"

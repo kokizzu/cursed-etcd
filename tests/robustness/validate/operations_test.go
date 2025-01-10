@@ -22,7 +22,7 @@ import (
 	"github.com/anishathalye/porcupine"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/tests/v3/robustness/model"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/model"
 )
 
 func TestValidateSerializableOperations(t *testing.T) {

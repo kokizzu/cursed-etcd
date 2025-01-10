@@ -17,8 +17,8 @@ package schema
 import (
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
 )
 
 type alarmBackend struct {

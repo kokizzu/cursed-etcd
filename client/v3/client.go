@@ -31,13 +31,13 @@ import (
 	"google.golang.org/grpc/keepalive"
 	"google.golang.org/grpc/status"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
-	"go.etcd.io/etcd/api/v3/version"
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	"go.etcd.io/etcd/client/v3/credentials"
-	"go.etcd.io/etcd/client/v3/internal/endpoint"
-	"go.etcd.io/etcd/client/v3/internal/resolver"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/client/v3/credentials"
+	"github.com/kokizzu/cursed-etcd/client/v3/internal/endpoint"
+	"github.com/kokizzu/cursed-etcd/client/v3/internal/resolver"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func TestMemberList(t *testing.T) {

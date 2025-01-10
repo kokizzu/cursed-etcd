@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
 )
 
 func newLazyFS(lg *zap.Logger, dataDir string, tmp TempDirProvider) *LazyFS {

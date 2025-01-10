@@ -16,7 +16,7 @@
 package main
 
 import (
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
 )
 
 func main() {

@@ -18,7 +18,7 @@ import (
 	"errors"
 	"testing"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
 
 	"github.com/stretchr/testify/assert"
 )

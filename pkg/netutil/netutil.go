@@ -26,7 +26,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
 )
 
 // indirection for testing

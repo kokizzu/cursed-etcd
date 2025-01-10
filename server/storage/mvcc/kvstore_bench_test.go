@@ -21,11 +21,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/pkg/v3/traceutil"
-	"go.etcd.io/etcd/server/v3/etcdserver/cindex"
-	"go.etcd.io/etcd/server/v3/lease"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/traceutil"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/cindex"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 )
 
 func BenchmarkStorePut(b *testing.B) {

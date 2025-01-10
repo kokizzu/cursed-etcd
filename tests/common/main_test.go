@@ -17,8 +17,8 @@ package common
 import (
 	"testing"
 
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	intf "go.etcd.io/etcd/tests/v3/framework/interfaces"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	intf "github.com/kokizzu/cursed-etcd/tests/v3/framework/interfaces"
 )
 
 var (

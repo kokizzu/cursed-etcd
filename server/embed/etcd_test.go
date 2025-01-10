@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"testing"
 
-	"go.etcd.io/etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
 )
 
 func TestEmptyClientTLSInfo_createMetricsListener(t *testing.T) {

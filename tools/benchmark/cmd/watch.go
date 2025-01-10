@@ -27,8 +27,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"
 
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/report"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/report"
 )
 
 // watchCmd represents the watch command

@@ -24,10 +24,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
-	"go.etcd.io/etcd/tests/v3/robustness/identity"
-	"go.etcd.io/etcd/tests/v3/robustness/report"
-	"go.etcd.io/etcd/tests/v3/robustness/traffic"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/identity"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/report"
+	"github.com/kokizzu/cursed-etcd/tests/v3/robustness/traffic"
 )
 
 var KillFailpoint Failpoint = killFailpoint{}

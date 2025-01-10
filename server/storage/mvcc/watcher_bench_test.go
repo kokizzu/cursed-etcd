@@ -20,8 +20,8 @@ import (
 
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/server/v3/lease"
-	betesting "go.etcd.io/etcd/server/v3/storage/backend/testing"
+	"github.com/kokizzu/cursed-etcd/server/v3/lease"
+	betesting "github.com/kokizzu/cursed-etcd/server/v3/storage/backend/testing"
 )
 
 func BenchmarkKVWatcherMemoryUsage(b *testing.B) {

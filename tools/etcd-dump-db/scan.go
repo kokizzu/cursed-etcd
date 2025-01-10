@@ -19,7 +19,7 @@ import (
 	"io"
 	"os"
 
-	"go.etcd.io/etcd/server/v3/storage/mvcc"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/mvcc"
 )
 
 func scanKeys(dbPath string, startRev int64) error {

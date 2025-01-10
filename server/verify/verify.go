@@ -19,13 +19,13 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/client/pkg/v3/verify"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/datadir"
-	"go.etcd.io/etcd/server/v3/storage/schema"
-	wal2 "go.etcd.io/etcd/server/v3/storage/wal"
-	"go.etcd.io/etcd/server/v3/storage/wal/walpb"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/datadir"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
+	wal2 "github.com/kokizzu/cursed-etcd/server/v3/storage/wal"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/wal/walpb"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

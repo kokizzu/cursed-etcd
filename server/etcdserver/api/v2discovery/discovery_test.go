@@ -30,8 +30,8 @@ import (
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	"go.etcd.io/etcd/client/v2"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	"github.com/kokizzu/cursed-etcd/client/v2"
 )
 
 const (

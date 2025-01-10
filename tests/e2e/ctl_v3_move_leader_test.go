@@ -23,11 +23,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	"go.etcd.io/etcd/client/pkg/v3/types"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/types"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 func TestCtlV3MoveLeaderScenarios(t *testing.T) {

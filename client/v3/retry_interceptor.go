@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
 )
 
 // unaryClientInterceptor returns a new retrying unary client interceptor.

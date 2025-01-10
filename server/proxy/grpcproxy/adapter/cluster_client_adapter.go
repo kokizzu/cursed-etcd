@@ -19,7 +19,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
 )
 
 type cls2clc struct{ cls pb.ClusterServer }

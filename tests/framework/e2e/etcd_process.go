@@ -31,10 +31,10 @@ import (
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
-	"go.etcd.io/etcd/pkg/v3/expect"
-	"go.etcd.io/etcd/pkg/v3/proxy"
-	"go.etcd.io/etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/expect"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/proxy"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
 )
 
 var EtcdServerReadyLines = []string{"ready to serve client requests"}

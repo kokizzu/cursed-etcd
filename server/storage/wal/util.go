@@ -21,7 +21,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
 )
 
 var errBadWALName = errors.New("bad wal name")

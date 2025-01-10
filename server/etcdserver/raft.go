@@ -23,10 +23,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/pkg/v3/contention"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/rafthttp"
-	serverstorage "go.etcd.io/etcd/server/v3/storage"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/contention"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/rafthttp"
+	serverstorage "github.com/kokizzu/cursed-etcd/server/v3/storage"
 	"go.etcd.io/raft/v3"
 	"go.etcd.io/raft/v3/raftpb"
 )

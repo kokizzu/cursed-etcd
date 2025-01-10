@@ -25,7 +25,7 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/client/pkg/v3/fileutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/fileutil"
 )
 
 var ErrNoDBSnapshot = errors.New("snap: snapshot file doesn't exist")

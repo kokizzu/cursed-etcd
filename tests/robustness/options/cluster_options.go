@@ -18,7 +18,7 @@ import (
 	"math/rand"
 	"time"
 
-	"go.etcd.io/etcd/tests/v3/framework/e2e"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/e2e"
 )
 
 var internalRand = rand.New(rand.NewSource(time.Now().UnixNano()))

@@ -19,9 +19,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/server/v3/etcdserver/cindex"
-	"go.etcd.io/etcd/server/v3/storage/backend"
-	"go.etcd.io/etcd/server/v3/storage/schema"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/cindex"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/schema"
 	"go.etcd.io/raft/v3/raftpb"
 )
 

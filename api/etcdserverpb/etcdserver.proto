@@ -3,7 +3,7 @@ package etcdserverpb;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "go.etcd.io/etcd/api/v3/etcdserverpb";
+option go_package = "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb";
 
 option (gogoproto.marshaler_all) = true;
 option (gogoproto.sizer_all) = true;

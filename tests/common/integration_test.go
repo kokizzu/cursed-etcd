@@ -17,9 +17,9 @@
 package common
 
 import (
-	"go.etcd.io/etcd/tests/v3/framework"
-	"go.etcd.io/etcd/tests/v3/framework/config"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/config"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func init() {

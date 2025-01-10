@@ -28,12 +28,12 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc/grpclog"
 
-	"go.etcd.io/etcd/client/pkg/v3/logutil"
-	"go.etcd.io/etcd/client/pkg/v3/srv"
-	"go.etcd.io/etcd/client/pkg/v3/transport"
-	clientv3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/pkg/v3/cobrautl"
-	"go.etcd.io/etcd/pkg/v3/flags"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/logutil"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/srv"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/transport"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cobrautl"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/flags"
 )
 
 // GlobalFlags are flags that defined globally

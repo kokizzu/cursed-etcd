@@ -23,9 +23,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	v3 "go.etcd.io/etcd/client/v3"
-	"go.etcd.io/etcd/client/v3/concurrency"
-	"go.etcd.io/etcd/tests/v3/framework/integration"
+	v3 "github.com/kokizzu/cursed-etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/client/v3/concurrency"
+	"github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 // TestSTMConflict tests that conflicts are retried.

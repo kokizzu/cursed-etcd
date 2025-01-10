@@ -1,18 +1,18 @@
-module go.etcd.io/etcd/tests/v3
+module github.com/kokizzu/cursed-etcd/tests/v3
 
 go 1.23
 
 toolchain go1.23.4
 
 replace (
-	go.etcd.io/etcd/api/v3 => ../api
-	go.etcd.io/etcd/client/pkg/v3 => ../client/pkg
-	go.etcd.io/etcd/client/v2 => ./../client/internal/v2
-	go.etcd.io/etcd/client/v3 => ../client/v3
-	go.etcd.io/etcd/etcdctl/v3 => ../etcdctl
-	go.etcd.io/etcd/etcdutl/v3 => ../etcdutl
-	go.etcd.io/etcd/pkg/v3 => ../pkg
-	go.etcd.io/etcd/server/v3 => ../server
+	github.com/kokizzu/cursed-etcd/api/v3 => ../api
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 => ../client/pkg
+	github.com/kokizzu/cursed-etcd/client/v2 => ./../client/internal/v2
+	github.com/kokizzu/cursed-etcd/client/v3 => ../client/v3
+	github.com/kokizzu/cursed-etcd/etcdctl/v3 => ../etcdctl
+	github.com/kokizzu/cursed-etcd/etcdutl/v3 => ../etcdutl
+	github.com/kokizzu/cursed-etcd/pkg/v3 => ../pkg
+	github.com/kokizzu/cursed-etcd/server/v3 => ../server
 )
 
 require (
@@ -27,14 +27,14 @@ require (
 	github.com/prometheus/common v0.61.0
 	github.com/soheilhy/cmux v0.1.5
 	github.com/stretchr/testify v1.10.0
-	go.etcd.io/etcd/api/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/client/v2 v2.306.0-alpha.0
-	go.etcd.io/etcd/client/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdctl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/etcdutl/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/pkg/v3 v3.6.0-alpha.0
-	go.etcd.io/etcd/server/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/api/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/pkg/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/v2 v2.306.0-alpha.0
+	github.com/kokizzu/cursed-etcd/client/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/etcdctl/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/etcdutl/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/pkg/v3 v3.6.0-alpha.0
+	github.com/kokizzu/cursed-etcd/server/v3 v3.6.0-alpha.0
 	go.etcd.io/gofail v0.2.0
 	go.etcd.io/raft/v3 v3.6.0-beta.0
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.58.0

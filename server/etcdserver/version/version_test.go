@@ -26,7 +26,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"go.etcd.io/etcd/api/v3/version"
+	"github.com/kokizzu/cursed-etcd/api/v3/version"
 )
 
 func TestUpgradeSingleNode(t *testing.T) {

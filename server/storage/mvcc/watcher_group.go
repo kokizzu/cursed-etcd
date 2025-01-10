@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	"go.etcd.io/etcd/pkg/v3/adt"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/adt"
 )
 
 // watchBatchMaxRevs is the maximum distinct revisions that

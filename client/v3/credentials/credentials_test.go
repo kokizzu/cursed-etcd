@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.etcd.io/etcd/api/v3/v3rpc/rpctypes"
+	"github.com/kokizzu/cursed-etcd/api/v3/v3rpc/rpctypes"
 )
 
 func TestUpdateAuthToken(t *testing.T) {

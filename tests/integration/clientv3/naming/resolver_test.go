@@ -27,10 +27,10 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	testpb "google.golang.org/grpc/interop/grpc_testing"
 
-	"go.etcd.io/etcd/client/v3/naming/endpoints"
-	"go.etcd.io/etcd/client/v3/naming/resolver"
-	"go.etcd.io/etcd/pkg/v3/grpctesting"
-	integration2 "go.etcd.io/etcd/tests/v3/framework/integration"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/endpoints"
+	"github.com/kokizzu/cursed-etcd/client/v3/naming/resolver"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/grpctesting"
+	integration2 "github.com/kokizzu/cursed-etcd/tests/v3/framework/integration"
 )
 
 func testEtcdGRPCResolver(t *testing.T, lbPolicy string) {

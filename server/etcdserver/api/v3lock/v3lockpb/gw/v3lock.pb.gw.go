@@ -13,7 +13,7 @@ import (
 
 	"context"
 	"errors"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/v3lock/v3lockpb"
 	"io"
 	"net/http"
 

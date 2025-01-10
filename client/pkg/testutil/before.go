@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.etcd.io/etcd/client/pkg/v3/verify"
+	"github.com/kokizzu/cursed-etcd/client/pkg/v3/verify"
 )
 
 func BeforeTest(tb testing.TB) {

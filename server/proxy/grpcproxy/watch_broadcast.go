@@ -21,8 +21,8 @@ import (
 
 	"go.uber.org/zap"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 // watchBroadcast broadcasts a server watcher to many client watchers.

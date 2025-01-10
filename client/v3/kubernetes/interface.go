@@ -17,8 +17,8 @@ package kubernetes
 import (
 	"context"
 
-	"go.etcd.io/etcd/api/v3/mvccpb"
-	clientv3 "go.etcd.io/etcd/client/v3"
+	"github.com/kokizzu/cursed-etcd/api/v3/mvccpb"
+	clientv3 "github.com/kokizzu/cursed-etcd/client/v3"
 )
 
 // Interface defines the minimal client-side interface that Kubernetes requires

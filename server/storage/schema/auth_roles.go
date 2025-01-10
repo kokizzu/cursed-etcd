@@ -17,8 +17,8 @@ package schema
 import (
 	"go.uber.org/zap"
 
-	"go.etcd.io/etcd/api/v3/authpb"
-	"go.etcd.io/etcd/server/v3/storage/backend"
+	"github.com/kokizzu/cursed-etcd/api/v3/authpb"
+	"github.com/kokizzu/cursed-etcd/server/v3/storage/backend"
 )
 
 func UnsafeCreateAuthRolesBucket(tx backend.UnsafeWriter) {

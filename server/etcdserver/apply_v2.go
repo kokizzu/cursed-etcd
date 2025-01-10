@@ -21,9 +21,9 @@ import (
 
 	"go.uber.org/zap"
 
-	pb "go.etcd.io/etcd/api/v3/etcdserverpb"
-	"go.etcd.io/etcd/api/v3/membershippb"
-	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
+	pb "github.com/kokizzu/cursed-etcd/api/v3/etcdserverpb"
+	"github.com/kokizzu/cursed-etcd/api/v3/membershippb"
+	"github.com/kokizzu/cursed-etcd/server/v3/etcdserver/api/membership"
 )
 
 func v2ToV3Request(lg *zap.Logger, r *RequestV2) pb.InternalRaftRequest {

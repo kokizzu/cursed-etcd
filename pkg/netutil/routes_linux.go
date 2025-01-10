@@ -24,7 +24,7 @@ import (
 	"slices"
 	"syscall"
 
-	"go.etcd.io/etcd/pkg/v3/cpuutil"
+	"github.com/kokizzu/cursed-etcd/pkg/v3/cpuutil"
 )
 
 var (
